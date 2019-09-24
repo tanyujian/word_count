@@ -1,0 +1,8 @@
+<h1>字数</h1>
+{{ text }}
+{{ key_dict }}
+<br>
+{% for word,count in key_dict %}
+    {{ word }} - {{ count }}
+    <br>
+{% endfor %}
